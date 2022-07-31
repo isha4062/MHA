@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+.seasons{
+    height: 800px;
+    width: 100%;
+    background-color: black;
+}
+
+.head{
+    color: red;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 2px 2px 4px white;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.para{
+    font-family: cursive;
+    font-size: 13px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.movies{
+    height: 1150px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.movie{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px white;
+}
+
+.modalTitle{
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+}
+.modalPara{
+    font-family: cursive;
+}
+
+
+.images{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+}
+.table{
+    width: 1000px;
+    margin: auto;
+}

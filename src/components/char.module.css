@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.cardText{
+    font-size: 15px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.cardTitle{
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    text-align: center;
+}
+.head{
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 3px 3px 4px black;
+}
+
+.card{
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.card:hover{
+    box-shadow: 3px 3px 4px red;
+    cursor: pointer;
+}
